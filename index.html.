@@ -1,0 +1,161 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Строительная компания ARCHFORM — проектирование, строительство и архитектура.">
+  <title>ARCHFORM — Строительство и архитектура</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="header">
+    <a href="#" class="logo">ARCH<span>FORM</span><i>.</i></a>
+
+    <nav class="nav">
+      <a href="#services">Услуги</a>
+      <a href="#projects">Проекты</a>
+      <a href="#about">О компании</a>
+    </nav>
+
+    <a href="#contact" class="header-contact">Обсудить проект ↗</a>
+
+    <button class="menu-toggle" aria-label="Открыть меню">☰</button>
+  </header>
+
+  <main>
+
+    <section class="hero">
+      <div class="hero-image"></div>
+      <div class="hero-overlay"></div>
+
+      <div class="hero-content">
+        <p class="eyebrow">АРХИТЕКТУРА / СТРОИТЕЛЬСТВО / ДИЗАЙН</p>
+
+        <h1>
+          Создаём<br>
+          пространство<br>
+          <span>будущего.</span>
+        </h1>
+
+        <p class="hero-description">
+          Проектируем и строим пространства, в которых
+          продумана каждая деталь.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#projects" class="button-primary">Наши проекты ↗</a>
+          <a href="#about" class="button-secondary">О компании</a>
+        </div>
+      </div>
+
+      <div class="hero-bottom">
+        <span>01 — 03</span>
+        <span>СТРОИМ СМЫСЛЫ. СОЗДАЁМ ФОРМЫ.</span>
+        <span>SCROLL TO EXPLORE ↓</span>
+      </div>
+    </section>
+
+    <section class="intro" id="about">
+      <div class="section-label">01 / О КОМПАНИИ</div>
+
+      <div class="intro-content">
+        <h2>Не просто строим.<br>Создаём <span>наследие.</span></h2>
+
+        <div class="intro-text">
+          <p>
+            ARCHFORM — современная строительная компания,
+            объединяющая архитектуру, инженерные решения
+            и качественное строительство.
+          </p>
+          <p>
+            От первой идеи до готового объекта —
+            мы внимательно относимся к каждому этапу работы.
+          </p>
+          <a href="#contact" class="text-link">Обсудить сотрудничество ↗</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="services" id="services">
+      <div class="section-label">02 / ЧТО МЫ ДЕЛАЕМ</div>
+      <h2>Наши <span>услуги.</span></h2>
+
+      <div class="service-grid">
+        <article class="service-card">
+          <span>01</span>
+          <h3>Проектирование</h3>
+          <p>Разрабатываем архитектурные и инженерные решения.</p>
+          <b>↗</b>
+        </article>
+
+        <article class="service-card">
+          <span>02</span>
+          <h3>Строительство</h3>
+          <p>Реализуем строительные проекты с вниманием к деталям.</p>
+          <b>↗</b>
+        </article>
+
+        <article class="service-card">
+          <span>03</span>
+          <h3>Реконструкция</h3>
+          <p>Обновляем пространства и даём зданиям новую жизнь.</p>
+          <b>↗</b>
+        </article>
+
+        <article class="service-card">
+          <span>04</span>
+          <h3>Дизайн интерьера</h3>
+          <p>Создаём функциональные и эстетичные интерьеры.</p>
+          <b>↗</b>
+        </article>
+      </div>
+    </section>
+
+    <section class="projects" id="projects">
+      <div class="section-label">03 / ПОРТФОЛИО</div>
+
+      <div class="projects-heading">
+        <h2>Избранные <span>работы.</span></h2>
+        <p>Каждый проект — отдельная история.</p>
+      </div>
+
+      <div class="project-grid">
+        <article class="project-item">
+          <div class="project-image project-image-one">
+            <span>01 / PRIVATE RESIDENCE</span>
+          </div>
+          <h3>Современная резиденция</h3>
+          <p>Архитектура частного дома</p>
+        </article>
+
+        <article class="project-item">
+          <div class="project-image project-image-two">
+            <span>02 / COMMERCIAL SPACE</span>
+          </div>
+          <h3>Коммерческое пространство</h3>
+          <p>Современная городская архитектура</p>
+        </article>
+      </div>
+      <p class="demo-note">Демонстрационные визуализации проектов</p>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="section-label">04 / СВЯЗАТЬСЯ С НАМИ</div>
+      <h2>Есть идея?<br><span>Давайте обсудим.</span></h2>
+      <p>Расскажите о своей задаче — вместе найдём лучшее решение.</p>
+      <a href="mailto:hello@example.com" class="button-primary">Оставить заявку ↗</a>
+    </section>
+
+  </main>
+
+  <footer>
+    <a href="#" class="logo">ARCH<span>FORM</span><i>.</i></a>
+    <p>© 2026 ARCHFORM. Демонстрационный проект.</p>
+    <a href="#top">Наверх ↑</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
